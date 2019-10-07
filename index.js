@@ -35,10 +35,10 @@ document.addEventListener('keydown', function(e) {
     moveDodgerRight()
   }
     if (e.which === 38) {
-    moveDodgerRight()
+    moveDodgerUp()
   }
     if (e.which === 40) {
-    moveDodgerRight()
+    moveDodgerDown()
   }
   
 })
