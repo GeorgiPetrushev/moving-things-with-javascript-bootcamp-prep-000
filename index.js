@@ -24,11 +24,11 @@ function moveDodgerRight(){
 }
 
 function moveDodgerUp(){
-      var leftNumbers = dodger.style.left.replace('px', '')
+      var leftNumbers = dodger.style.bottom.replace('px', '')
   var left = parseInt(leftNumbers, 10)
  
   if (left < 400-40) {
-    dodger.style.left = `${left + 5}px`
+    dodger.style.bottom = `${left + 5}px`
   }
 }
 
