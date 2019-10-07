@@ -2,7 +2,7 @@ const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 
 dodger.style.backgroundColor = "#FF69B4";
-dodger.style.bottom = '0px';
+dodger.style.bottom = '20px';
 
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
