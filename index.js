@@ -2,7 +2,7 @@ const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 
 dodger.style.backgroundColor = "#FF69B4";
-
+dodger.style.bottom = '0px';
 
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
@@ -33,13 +33,13 @@ function moveDodgerUp(){
 }
 
 function moveDodgerDown(){
-      var leftNumbers = dodger.style.bottom.replace('px', '')
+      var leftNumbers = dodger.style.top.replace('px', '')
   var left = parseInt(leftNumbers, 10)
  
-  if (left < 400-40) {
-    dodger.style.bottom = `${left + 5}px`
-  }
-}
+  
+    dodger.style.top = `${left - 5}px`
+  
+  
 }
 
 
