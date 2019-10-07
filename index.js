@@ -23,8 +23,13 @@ function moveDodgerRight(){
   }
 }
 
+function moveDodgerUp(){
+  
+}
 
-
+function moveDodgerDown(){
+  
+}
 
 
 document.addEventListener('keydown', function(e) {
