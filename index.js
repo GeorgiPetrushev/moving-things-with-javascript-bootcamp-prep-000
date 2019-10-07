@@ -36,9 +36,9 @@ function moveDodgerDown(){
       var leftNumbers = dodger.style.top.replace('px', '')
   var left = parseInt(leftNumbers, 10)
  
-  if (left > 400-40) {
+  
     dodger.style.top = `${left - 5}px`
-  }
+  
   
 }
 
