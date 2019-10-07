@@ -33,13 +33,7 @@ function moveDodgerUp(){
 }
 
 function moveDodgerDown(){
-      var leftNumbers = dodger.style.top.replace('px', '')
-  var left = parseInt(leftNumbers, 10)
- 
-  
-    dodger.style.top = `${left - 5}px`
-  
-  
+
 }
 
 
