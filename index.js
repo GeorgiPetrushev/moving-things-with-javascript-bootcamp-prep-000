@@ -33,13 +33,13 @@ function moveDodgerUp(){
 }
 
 function moveDodgerDown(){
-      var leftNumbers = dodger.style.top.replace('px', '')
+      var leftNumbers = dodger.style.bottom.replace('px', '')
   var left = parseInt(leftNumbers, 10)
  
-  
-    dodger.style.top = `${left + 5}px`
-  
-  
+  if (left < 400-40) {
+    dodger.style.bottom = `${left + 5}px`
+  }
+}
 }
 
 
